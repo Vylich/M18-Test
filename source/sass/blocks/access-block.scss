@@ -1,0 +1,18 @@
+.access-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 170px 0;
+  gap: 41px;
+
+  &--disabled {
+    display: none;
+  }
+}
+
+.access-block__description {
+  font-size: 16px;
+  text-transform: uppercase;
+
+}

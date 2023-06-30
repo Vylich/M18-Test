@@ -1,0 +1,45 @@
+.footer-links {
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links__list {
+  display: flex;
+  list-style-type: none;
+  gap: 95px;
+  align-items: center;
+}
+
+.footer-links__item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  &--city {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+}
+
+.spb {
+  color: #666666;
+}
+
+.footer-links__link {
+  text-decoration: none;
+  color: #000000;
+
+  &--email {
+    border-bottom: solid 2px #f9572e;
+  }
+
+  &:hover {
+    color: #f9572e;
+  }
+}
+
+.footer-links__icon {
+  color: #f9572e;
+}

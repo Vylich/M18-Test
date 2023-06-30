@@ -1,0 +1,17 @@
+.gift {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+
+}
+
+.gift__icon {
+  color: #63D2C1;
+}
+
+.gift__description {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.6px;
+}
